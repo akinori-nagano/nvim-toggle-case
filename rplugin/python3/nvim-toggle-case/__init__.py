@@ -11,4 +11,4 @@ class NvimCMakeProj(object):
 
     @neovim.command('CMakeReload')
     def cmake_reload(self):
-        self.echo("test")'")
+        self.echo("test")
